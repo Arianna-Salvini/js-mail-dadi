@@ -10,7 +10,7 @@ console.log(userEmail);
 
 // - Controlla che sia nella lista di chi può accedere
 //      - creare un ARRAY di indirizzi email
-let emailList = ["ari@gmail.com",  "john.doe@example.com", "jane.smith@example.com", "alice123@example.com", "bob.jones@example.com", "emily_22@example.com"];
+let emailList = ["a", "ari@gmail.com",  "john.doe@example.com", "jane.smith@example.com", "alice123@example.com", "bob.jones@example.com", "emily_22@example.com"];
 let valid = false;
 
 console.log(emailList, valid);
