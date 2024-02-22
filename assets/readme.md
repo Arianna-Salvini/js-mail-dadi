@@ -13,10 +13,18 @@
 
 # Gioco dei dadi
 - Generare un numero random da 1 a 6
+    - creare un arrai di numeri da 1 a 6
+    - generazione casuale di numeri Math.random da 1 a 6
+
   
 - 1 per il giocatore e 1 per il computer.
+   - creare variabili per 2 giocatori
+        - variabile 1 -> prompt = 1inserisci il tuo nickname
+        - variabile 2 -> computer
 
 - Stabilire il vincitore, in base a chi fa il punteggio più alto.
+    - confrontare i numeri generati
+    - confermare il vincitore che ha il numero maggiore
 
 
 
