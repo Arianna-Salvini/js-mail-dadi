@@ -49,21 +49,27 @@ rollButton.addEventListener("click", function () {
     document.getElementById("your_dice").innerHTML = yourDice
     document.getElementById("pc_dice").innerHTML = pcDice
 
-    if (yourDice > pcDice) {
-        let gamewinner = "win"
-        console.log(gamewinner);
+    const result = document.getElementsByClassName("result")
+    let gameWinner 
+
+
+    if (yourDice == pcDice) {
+        gameWinner = "It's a Draw!"
+
+
+    } else if (yourDice > pcDice) {
+        gameWinner = "You Win!";
+
+    } else {
+        gameWinner = "You Loose..."
 
     }
-    else if (yourDice == pcDice) {
-        let gamewinner = "draw"
-        console.log(gamewinner);
 
-    }
-    else {
-        let gamewinner = "loose"
-        console.log(gamewinner);
-    }
+    console.log(gameWinner);
+
 });
+
+
 
 // - Stabilire il vincitore, in base a chi fa il punteggio più alto.
 //     - confrontare i numeri generati
