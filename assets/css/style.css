@@ -1,3 +1,50 @@
-body{
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
     background-color: antiquewhite;
+
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+}
+
+.table {
+    max-width: 80%;
+    height: 500px;
+    background-color: darkolivegreen;
+    align-items: center;
+
+    & h2,
+    #your_dice,
+    #pc_dice {
+        padding: 1rem;
+    }
+
+    #your_dice,
+    #pc_dice {
+        font-size: 1.5rem;
+        color: aliceblue;
+    }
+
+    & button{
+        padding: 2rem;
+        background-color: darkred;
+        box-shadow: 5px 5px 3px 3px rgba(62, 62, 62, 0.344);
+        color: aliceblue;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+
 }

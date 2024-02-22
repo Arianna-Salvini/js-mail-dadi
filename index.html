@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,33 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
+    <div class="container">
+        <h1>Roll tour Dice </h1>
+        <div class="table d_flex">
+            <div id="your_side" class="d_flex">
 
-    <h1>Mail and Dice</h1>
+                <h2>You</h2>
+                <div id="your_dice">
+                    1
+                </div>
+            </div>
+            <!-- /#your_side -->
+            <button>Roll</button>
+            <!-- button to roll -->
+            <div id="pc_side" class="d_flex">
+                <div id="pc_dice">
+                    1
+                </div>
+                <h2>Your Computer</h2>
+            </div>
+            <!-- /#pc_side -->
+        </div>
+        
+    </div>
 
-    
-    <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
