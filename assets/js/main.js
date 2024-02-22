@@ -38,22 +38,18 @@ console.log("Do you wanna play? Give me your email.");
 
 /////Gioco dei dadi/////
 // - Creare variabili per 2 giocatori
-//      - variabile 1 -> prompt = 1inserisci il tuo nickname
-//      - variabile 2 -> computer
-
-const computerGamer = "Your computer"
-const userGamer = prompt("Inserisci il tuo nickname")
-
-console.log(computerGamer);
-console.log(userGamer);
-
 // - Generare un numero random da 1 a 6
 //     - creare un arrai di numeri da 1 a 6
-//     - generazione casuale di numeri Math.random da 1 a 6
+const diceNumber = [1, 2, 3, 4, 5, 6];
 
-  const dice = [1, 2, 3, 4, 5, 6]
-  console.log(dice);
+// - generazione casuale di numeri Math.random da 1 a 6
 
+let pcDice = Math.floor(Math.random() * 6) +1;
+let yourDice = Math.floor(Math.random() * 6) +1;
+
+console.log(pcDice, yourDice);
+document.getElementById("your_dice").innerHTML = yourDice
+document.getElementById("pc_dice").innerHTML = pcDice
 
 // - Stabilire il vincitore, in base a chi fa il punteggio più alto.
 //     - confrontare i numeri generati
