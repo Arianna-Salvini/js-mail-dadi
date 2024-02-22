@@ -24,6 +24,9 @@
     - confrontare i numeri generati
     - confermare il vincitore che ha il numero maggiore
 
+- incartare tutto in un pulsante EventListener
+
+
 
 
 # Bonus
