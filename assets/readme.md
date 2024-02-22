@@ -1,0 +1,15 @@
+# Mail 
+- Chiedi all’utente la sua email
+
+- Controlla che sia nella lista di chi può accedere
+
+- Stampa un messaggio appropriato sull’esito del controllo.
+
+
+
+# Gioco dei dadi
+- Generare un numero random da 1 a 6
+  
+- 1 per il giocatore e 1 per il computer.
+
+- Stabilire il vincitore, in base a chi fa il punteggio più alto.

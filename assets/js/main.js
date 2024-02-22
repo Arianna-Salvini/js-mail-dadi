@@ -1,0 +1,1 @@
+console.log("Do you wanna play? Give me your email.");
