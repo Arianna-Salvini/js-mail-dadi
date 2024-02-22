@@ -44,12 +44,28 @@ const diceNumber = [1, 2, 3, 4, 5, 6];
 
 // - generazione casuale di numeri Math.random da 1 a 6
 
-let pcDice = Math.floor(Math.random() * 6) +1;
-let yourDice = Math.floor(Math.random() * 6) +1;
+let pcDice = Math.floor(Math.random() * 6) + 1;
+let yourDice = Math.floor(Math.random() * 6) + 1;
 
 console.log(pcDice, yourDice);
 document.getElementById("your_dice").innerHTML = yourDice
 document.getElementById("pc_dice").innerHTML = pcDice
+
+if (yourDice > pcDice) {
+    let gamewinner = "win"
+    console.log(gamewinner);
+
+}
+else if (yourDice == pcDice) {
+    let gamewinner = "draw"
+    console.log(gamewinner);
+
+}
+else {
+    let gamewinner = "loose"
+    console.log(gamewinner);
+
+}
 
 // - Stabilire il vincitore, in base a chi fa il punteggio più alto.
 //     - confrontare i numeri generati
