@@ -1,10 +1,14 @@
 # Mail 
 - Chiedi all’utente la sua email
+    - PROMP per chiedere email
 
 - Controlla che sia nella lista di chi può accedere
+     - creare un ARRAY di indirizzi email
+     - creare un CICLO per il confronto dell'email con l'array
 
 - Stampa un messaggio appropriato sull’esito del controllo.
-
+     - SE l'indizizzo è nella lista inviare un ALERT con messaggio A
+     - ALTRIMENTI invia ALERT con messaggio B
 
 
 # Gioco dei dadi
