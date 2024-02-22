@@ -13,3 +13,11 @@
 - 1 per il giocatore e 1 per il computer.
 
 - Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+
+
+# Bonus
+
+- Usiamo un input e un bottone per inserire la mail
+  
+- Poi mostriamo i risultati in pagina.
