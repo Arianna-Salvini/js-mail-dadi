@@ -66,7 +66,7 @@ rollButton.addEventListener("click", function () {
     }
 
     console.log(gameWinner);
-
+    document.getElementById("result").insertAdjacentHTML("afterbegin", gameWinner)
 });
 
 
